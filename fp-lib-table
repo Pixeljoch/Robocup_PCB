@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Robocup_PCB)(type KiCad)(uri ${KIPRJMOD}/Robocup_PCB.pretty)(options "")(descr ""))
+)

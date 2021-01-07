@@ -3,4 +3,5 @@
   (lib (name w_connectors)(type Legacy)(uri ${KIPRJMOD}/w_connectors.lib)(options "")(descr ""))
   (lib (name XT60-M)(type Legacy)(uri "${KIPRJMOD}/3rd party libs/XT60-M.lib")(options "")(descr ""))
   (lib (name IRFR120ZTRPBF)(type Legacy)(uri "${KIPRJMOD}/3rd party libs/IRFR120ZTRPBF.lib")(options "")(descr ""))
+  (lib (name Robocup_PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/Robocup_PCB-rescue.lib)(options "")(descr ""))
 )

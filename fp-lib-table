@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name Robocup_PCB)(type KiCad)(uri ${KIPRJMOD}/Robocup_PCB.pretty)(options "")(descr ""))
+  (lib (name w_conn_misc)(type KiCad)(uri ${KIPRJMOD}/w_conn_misc.pretty)(options "")(descr ""))
+  (lib (name "3rd party libs")(type KiCad)(uri "${KIPRJMOD}/3rd party libs")(options "")(descr ""))
 )

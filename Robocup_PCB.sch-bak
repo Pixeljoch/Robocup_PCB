@@ -827,10 +827,10 @@ Connection ~ 6450 6750
 Text GLabel 6150 6700 1    50   Output ~ 0
 A11
 $Comp
-L Connector:Conn_01x06_Male J2
+L Connector:Conn_01x06_Male J1
 U 1 1 5FFBF4FE
 P 2250 750
-F 0 "J2" V 2100 400 50  0000 L CNN
+F 0 "J1" V 2100 400 50  0000 L CNN
 F 1 "M1_IN" V 2200 400 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 2250 750 50  0001 C CNN
 F 3 "~" H 2250 750 50  0001 C CNN
@@ -838,10 +838,10 @@ F 3 "~" H 2250 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J6
+L Connector:Conn_01x06_Male J3
 U 1 1 5FFC7622
 P 3650 750
-F 0 "J6" V 3500 400 50  0000 L CNN
+F 0 "J3" V 3500 400 50  0000 L CNN
 F 1 "M3_IN" V 3600 400 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 3650 750 50  0001 C CNN
 F 3 "~" H 3650 750 50  0001 C CNN
@@ -849,10 +849,10 @@ F 3 "~" H 3650 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J4
+L Connector:Conn_01x06_Male J2
 U 1 1 5FFC2FEB
 P 2950 750
-F 0 "J4" V 2800 400 50  0000 L CNN
+F 0 "J2" V 2800 400 50  0000 L CNN
 F 1 "M2_IN" V 2900 400 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 2950 750 50  0001 C CNN
 F 3 "~" H 2950 750 50  0001 C CNN
@@ -860,10 +860,10 @@ F 3 "~" H 2950 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L w_connectors:Arduino_Mega_Header J7
+L w_connectors:Arduino_Mega_Header J4
 U 1 1 5FF3CCD5
 P 5600 3700
-F 0 "J7" H 5600 5087 60  0000 C CNN
+F 0 "J4" H 5600 5087 60  0000 C CNN
 F 1 "Arduino_Mega_Header" H 5600 4981 60  0000 C CNN
 F 2 "w_conn_misc:arduino_mega_header" H 5600 3700 60  0001 C CNN
 F 3 "" H 5600 3700 60  0000 C CNN
@@ -1113,51 +1113,6 @@ Wire Wire Line
 	2850 950  2850 1050
 Wire Wire Line
 	2150 950  2150 1050
-$Comp
-L Connector:Conn_01x02_Male J5
-U 1 1 6006A0CE
-P 3350 1250
-F 0 "J5" V 3550 1350 50  0000 R CNN
-F 1 "M3_ENOUT" V 3300 1300 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3350 1250 50  0001 C CNN
-F 3 "~" H 3350 1250 50  0001 C CNN
-	1    3350 1250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J3
-U 1 1 6006B547
-P 2650 1250
-F 0 "J3" V 2850 1350 50  0000 R CNN
-F 1 "M2_ENOUT" V 2600 1300 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2650 1250 50  0001 C CNN
-F 3 "~" H 2650 1250 50  0001 C CNN
-	1    2650 1250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 6006BCDF
-P 1950 1250
-F 0 "J1" V 2150 1350 50  0000 R CNN
-F 1 "M1_ENOUT" V 1900 1300 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1950 1250 50  0001 C CNN
-F 3 "~" H 1950 1250 50  0001 C CNN
-	1    1950 1250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3450 950  3450 1050
-Wire Wire Line
-	3350 950  3350 1050
-Wire Wire Line
-	2750 950  2750 1050
-Wire Wire Line
-	2650 950  2650 1050
-Wire Wire Line
-	2050 950  2050 1050
-Wire Wire Line
-	1950 950  1950 1050
 Text GLabel 1750 2000 2    50   Output ~ 0
 M1_A
 Text GLabel 1750 2100 2    50   Output ~ 0
@@ -1439,9 +1394,6 @@ NoConn ~ 6150 3550
 NoConn ~ 6100 3600
 NoConn ~ 6150 3650
 NoConn ~ 6100 3700
-NoConn ~ 6150 3750
-NoConn ~ 6100 3800
-NoConn ~ 6150 3850
 NoConn ~ 6100 3900
 NoConn ~ 6150 4000
 NoConn ~ 6100 4350
@@ -1469,9 +1421,6 @@ NoConn ~ 5050 4300
 NoConn ~ 5100 4250
 NoConn ~ 5050 4200
 NoConn ~ 5100 4150
-NoConn ~ 5050 4100
-NoConn ~ 5100 4050
-NoConn ~ 5050 4000
 NoConn ~ 5100 3950
 $Comp
 L Transistor_FET:IRF9540N Q1
@@ -1492,7 +1441,7 @@ U 1 1 603A379C
 P 7600 1550
 F 0 "R13" V 7393 1550 50  0000 C CNN
 F 1 "100k" V 7484 1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7530 1550 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7530 1550 50  0001 C CNN
 F 3 "~" H 7600 1550 50  0001 C CNN
 	1    7600 1550
 	0    1    1    0   
@@ -1527,17 +1476,6 @@ F 3 "" H 9750 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9750 2100 9700 2100
-$Comp
-L Robocup_PCB:5V_D24V5F5 U3
-U 1 1 604D36B7
-P 8000 2950
-F 0 "U3" H 7762 2871 50  0000 R CNN
-F 1 "5V_D24V5F5" H 8200 3150 50  0000 R CNN
-F 2 "Robocup_PCB:5V_D24V5F5_FP" H 7950 2900 50  0001 C CNN
-F 3 "" H 7950 2900 50  0001 C CNN
-	1    8000 2950
-	-1   0    0    1   
-$EndComp
 NoConn ~ 8150 2750
 $Comp
 L power:+5V #PWR01
@@ -1653,7 +1591,7 @@ U 1 1 602B6BB9
 P 8700 2400
 F 0 "C13" H 8815 2446 50  0000 L CNN
 F 1 "10n" H 8815 2355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8738 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8738 2250 50  0001 C CNN
 F 3 "~" H 8700 2400 50  0001 C CNN
 	1    8700 2400
 	1    0    0    -1  
@@ -2030,6 +1968,65 @@ F 1 "6k2" H 6270 7055 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6130 7100 50  0001 C CNN
 F 3 "~" H 6200 7100 50  0001 C CNN
 	1    6200 7100
+	-1   0    0    1   
+$EndComp
+Text GLabel 2050 1100 3    50   Output ~ 0
+M1_ENA
+Wire Wire Line
+	2050 950  2050 1100
+Text GLabel 6200 3750 2    50   Input ~ 0
+M1_ENA
+Wire Wire Line
+	6150 3750 6200 3750
+Text GLabel 2750 1100 3    50   Output ~ 0
+M2_ENA
+Wire Wire Line
+	2750 950  2750 1100
+Text GLabel 3450 1100 3    50   Output ~ 0
+M3_ENA
+Wire Wire Line
+	3450 950  3450 1100
+Text GLabel 6150 3800 2    50   Input ~ 0
+M2_ENA
+Wire Wire Line
+	6100 3800 6150 3800
+Text GLabel 6200 3850 2    50   Input ~ 0
+M3_ENA
+Wire Wire Line
+	6150 3850 6200 3850
+Text GLabel 1950 1100 3    50   Output ~ 0
+M1_ENB
+Wire Wire Line
+	1950 950  1950 1100
+Text GLabel 5000 4000 0    50   Input ~ 0
+M1_ENB
+Wire Wire Line
+	5000 4000 5050 4000
+Text GLabel 2650 1100 3    50   Output ~ 0
+M2_ENB
+Wire Wire Line
+	2650 950  2650 1100
+Text GLabel 3350 1100 3    50   Output ~ 0
+M3_ENB
+Wire Wire Line
+	3350 950  3350 1100
+Text GLabel 5050 4050 0    50   Input ~ 0
+M2_ENB
+Wire Wire Line
+	5050 4050 5100 4050
+Text GLabel 5000 4100 0    50   Input ~ 0
+M3_ENB
+Wire Wire Line
+	5000 4100 5050 4100
+$Comp
+L Robocup_PCB:5V_D24V5F5 U3
+U 1 1 6007652D
+P 8000 2950
+F 0 "U3" H 7762 2871 50  0000 R CNN
+F 1 "5V_D24V5F5" H 7762 2962 50  0000 R CNN
+F 2 "" H 7950 2900 50  0001 C CNN
+F 3 "" H 7950 2900 50  0001 C CNN
+	1    8000 2950
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

@@ -1428,7 +1428,7 @@ U 1 1 6037339C
 P 8550 1650
 F 0 "Q1" H 8755 1604 50  0000 L CNN
 F 1 "IRF9540N" H 8755 1695 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8750 1575 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 8750 1575 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf" H 8550 1650 50  0001 L CNN
 	1    8550 1650
 	1    0    0    -1  

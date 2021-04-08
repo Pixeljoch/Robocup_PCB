@@ -1,18 +1,4 @@
-18665620189429584
-3rd party libs
-AMASS_XT60-M
-
-
-0
-2
-2
-3rd party libs
-DPAK229P990X239-3N
-
-
-0
-3
-3
+18636544139535662
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75397,6 +75383,13 @@ Robocup_PCB
 9
 5
 Robocup_PCB
+D_1.70x0.8x0.6mm_handSolder
+
+
+0
+0
+0
+Robocup_PCB
 IR_TSOP93038_TH
 
 
@@ -82088,122 +82081,3 @@ varistor SIOV
 0
 2
 2
-w_conn_misc
-6p4c
-6p4c socket
-
-0
-4
-4
-w_conn_misc
-6p6c
-6p6c socket
-
-0
-6
-6
-w_conn_misc
-8p8c
-8p8c socket
-
-0
-8
-8
-w_conn_misc
-arduino_header
-Arduino Header
-Arduino
-0
-32
-32
-w_conn_misc
-arduino_mega_header
-Arduino Mega/Due Header
-Arduino
-0
-86
-86
-w_conn_misc
-arduino_nano_header
-Arduino Nano Header
-Arduino
-0
-30
-30
-w_conn_misc
-arduino_pin_socket_8
-Pin socket 8pin for Arduino exp. boards
-CONN DEV
-0
-8
-8
-w_conn_misc
-dc_socket
-Socket, DC power supply
-
-0
-3
-3
-w_conn_misc
-dc_socket_rh
-Socket, DC power supply, round holes
-
-0
-18
-3
-w_conn_misc
-microsd_socket
-MicroSD Card socket, Molex P/N 502774-0811
-
-0
-14
-10
-w_conn_misc
-molex_6p6c
-RJ11 6p6c socket, Molex P/N 95009-7667
-
-0
-6
-6
-w_conn_misc
-sd_socket
-SD Card socket, 4UCON P/N 19607
-
-0
-17
-12
-w_conn_misc
-stm32f0_discovery_header
-STM32 F0 Discovery Header
-STM32F0 Discovery
-0
-66
-66
-w_conn_misc
-stm32f3_discovery_header
-STM32 F3 Discovery Header
-STM32F3 Discovery
-0
-106
-100
-w_conn_misc
-stm32f4_discovery_header
-STM32 F4 Discovery Header
-STM32F4 Discovery
-0
-104
-100
-w_conn_misc
-stm32vl_discovery_header
-STM32 Value Line Discovery Header
-STM32VL Discovery
-0
-62
-62
-w_conn_misc
-wago_2060-451
-Wago 2060-451
-
-0
-2
-1

@@ -1,18 +1,4 @@
-18665620189429584
-3rd party libs
-AMASS_XT60-M
-
-
-0
-2
-2
-3rd party libs
-DPAK229P990X239-3N
-
-
-0
-3
-3
+18668856479214665
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75396,6 +75382,34 @@ Robocup_PCB
 0
 9
 5
+Robocup_PCB
+AMASS_XT60-M
+
+
+0
+2
+2
+Robocup_PCB
+DPAK229P990X239-3N
+
+
+0
+3
+3
+Robocup_PCB
+D_1.70x0.8x0.6mm_handSolder
+
+
+0
+2
+2
+Robocup_PCB
+IC_TB67H420FTG(O,EL)
+
+
+0
+102
+102
 Robocup_PCB
 IR_TSOP93038_TH
 

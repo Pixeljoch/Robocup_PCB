@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LiPo_12_Driver)(type Legacy)(uri ${KIPRJMOD}/LiPo_12_Driver.lib)(options "")(descr ""))
+  (lib (name LiPo_12_Driver-rescue)(type Legacy)(uri ${KIPRJMOD}/LiPo_12_Driver-rescue.lib)(options "")(descr ""))
+)

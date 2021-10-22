@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -13,12 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1600 2450 2950 2600
-U 6150A5CE
-F0 "6A_Version" 50
-F1 "6A_Version.sch" 50
-$EndSheet
 $Sheet
 S 4750 2450 2800 2600
 U 6150E6D6

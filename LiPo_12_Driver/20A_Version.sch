@@ -381,17 +381,6 @@ Wire Wire Line
 Connection ~ 3500 6400
 Wire Wire Line
 	3500 6400 3800 6400
-$Comp
-L LiPo_12_Driver:TI_LM5175 U1
-U 1 1 616B56F3
-P 4650 5600
-F 0 "U1" H 5100 6000 50  0000 C CNN
-F 1 "TI_LM5175" H 5250 4800 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias" H 4650 5600 50  0001 C CNN
-F 3 "" H 4650 5600 50  0001 C CNN
-	1    4650 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 6150 4000 6150
 Connection ~ 4000 6150
@@ -444,8 +433,6 @@ Wire Wire Line
 Connection ~ 2950 4150
 Wire Wire Line
 	2950 4150 3350 4150
-Wire Wire Line
-	3800 5900 4100 5900
 $Comp
 L Device:R_Small R4
 U 1 1 6178105D
@@ -1311,8 +1298,6 @@ Connection ~ 4000 6250
 Wire Wire Line
 	4000 6250 4000 6150
 Wire Wire Line
-	3000 5500 4100 5500
-Wire Wire Line
 	3000 6250 3000 6400
 $Comp
 L Device:L L2
@@ -1489,5 +1474,20 @@ F 2 "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET" H 7800 5800 50  0001 C CNN
 F 3 "~" H 7600 5700 50  0001 C CNN
 	1    7600 5700
 	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5900 4100 5900
+Wire Wire Line
+	3000 5500 4100 5500
+$Comp
+L LiPo_12_Driver:TI_LM5175_HSSOP U1
+U 1 1 6181A349
+P 4800 5800
+F 0 "U1" H 5200 6400 50  0000 C CNN
+F 1 "TI_LM5175_HSSOP" H 4500 5200 50  0000 C CNN
+F 2 "Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP3.4x9.5mm_ThermalVias" H 4800 5800 50  0001 C CNN
+F 3 "" H 4800 5800 50  0001 C CNN
+	1    4800 5800
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

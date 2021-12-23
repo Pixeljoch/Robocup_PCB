@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name main_board_rbj)(type Legacy)(uri ${KIPRJMOD}/libraries/main_board_rbj.lib)(options "")(descr ""))
+  (lib (name TEENSY_4_1)(type Legacy)(uri ${KIPRJMOD}/lib/TEENSY_4_1.lib)(options "")(descr ""))
 )

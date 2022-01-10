@@ -2,4 +2,5 @@
   (lib (name main_board_rbj)(type Legacy)(uri ${KIPRJMOD}/libraries/main_board_rbj.lib)(options "")(descr ""))
   (lib (name TEENSY_4_1)(type Legacy)(uri ${KIPRJMOD}/lib/TEENSY_4_1.lib)(options "")(descr ""))
   (lib (name XT60-M)(type Legacy)(uri ${KIPRJMOD}/lib/XT60-M.lib)(options "")(descr ""))
+  (lib (name Main_Board)(type Legacy)(uri ${KIPRJMOD}/lib/Main_Board.lib)(options "")(descr ""))
 )

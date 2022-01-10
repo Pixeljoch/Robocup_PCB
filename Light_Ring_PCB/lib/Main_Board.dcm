@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADG732
+D 32 TO 1 MULTIPLEXER
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adg726_732.pdf
+$ENDCMP
+#
+#End Doc Library

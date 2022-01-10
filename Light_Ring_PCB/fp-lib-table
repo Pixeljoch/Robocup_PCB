@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Robocup_PCB)(type KiCad)(uri C:/Users/pixel/Documents/KiCad/Robocup_PCB/Robocup_PCB.pretty)(options "")(descr ""))
+  (lib (name Light_Ring)(type KiCad)(uri ${KIPRJMOD}/Light_Ring.pretty)(options "")(descr ""))
 )

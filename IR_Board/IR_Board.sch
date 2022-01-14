@@ -531,17 +531,6 @@ F 3 "" H 9950 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9950 1900 9950 1750
-$Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J1
-U 1 1 61A6AA53
-P 5900 3100
-F 0 "J1" H 5950 2475 50  0000 C CNN
-F 1 "Conn_02x08_Row_Letter_First" H 5950 2566 50  0000 C CNN
-F 2 "Connector_JST:JST_PHD_B16B-PHDSS_2x08_P2.00mm_Vertical" H 5900 3100 50  0001 C CNN
-F 3 "~" H 5900 3100 50  0001 C CNN
-	1    5900 3100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1950 1750 1950 3300
 Wire Wire Line
@@ -575,29 +564,17 @@ Wire Wire Line
 Wire Wire Line
 	6150 2700 6150 1750
 Wire Wire Line
-	6100 2800 6750 2800
-Wire Wire Line
 	6750 2800 6750 1750
 Wire Wire Line
 	7350 1750 7350 2900
 Wire Wire Line
-	7350 2900 6100 2900
-Wire Wire Line
 	7950 1750 7950 3000
-Wire Wire Line
-	7950 3000 6100 3000
 Wire Wire Line
 	8550 1750 8550 3100
 Wire Wire Line
-	8550 3100 6100 3100
-Wire Wire Line
 	9150 1750 9150 3200
 Wire Wire Line
-	9150 3200 6100 3200
-Wire Wire Line
 	9750 1750 9750 3300
-Wire Wire Line
-	9750 3300 6100 3300
 $Comp
 L power:+5V #PWR0129
 U 1 1 61A983C6
@@ -643,10 +620,33 @@ Wire Wire Line
 	5700 3550 5600 3550
 Wire Wire Line
 	5600 3550 5600 3400
-Connection ~ 5600 3400
 Wire Wire Line
 	6000 3550 6100 3550
 Wire Wire Line
 	6100 3550 6100 3400
 Connection ~ 6100 3400
+Connection ~ 5600 3400
+Wire Wire Line
+	6100 2800 6750 2800
+Wire Wire Line
+	7350 2900 6100 2900
+Wire Wire Line
+	7950 3000 6100 3000
+Wire Wire Line
+	8550 3100 6100 3100
+Wire Wire Line
+	9150 3200 6100 3200
+Wire Wire Line
+	9750 3300 6100 3300
+$Comp
+L Connector_Generic:Conn_02x08_Row_Letter_First J1
+U 1 1 61A6AA53
+P 5800 3100
+F 0 "J1" H 5850 2475 50  0000 C CNN
+F 1 "Conn_02x08_Row_Letter_First" H 5850 2566 50  0000 C CNN
+F 2 "Connector_JST:JST_PHD_B16B-PHDSS_2x08_P2.00mm_Vertical" H 5800 3100 50  0001 C CNN
+F 3 "~" H 5800 3100 50  0001 C CNN
+	1    5800 3100
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

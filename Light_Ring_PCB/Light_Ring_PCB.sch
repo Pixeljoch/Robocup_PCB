@@ -3524,4 +3524,15 @@ Wire Wire Line
 	9550 5650 9550 5900
 Wire Wire Line
 	9350 5650 9350 5900
+$Comp
+L Driver_LED:LED5000 U?
+U 1 1 61F54817
+P 6150 6700
+F 0 "U?" H 6150 7181 50  0000 C CNN
+F 1 "LED5000" H 6150 7090 50  0000 C CNN
+F 2 "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm" H 6400 6350 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/led5000.pdf" H 6050 6350 50  0001 C CNN
+	1    6150 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1221,17 +1221,6 @@ F 3 "~" H 9000 3650 50  0001 C CNN
 	1    9000 3650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J?
-U 1 1 61ECCE02
-P 9000 4750
-F 0 "J?" H 9080 4742 50  0000 L CNN
-F 1 "Conn_01x06" H 9080 4651 50  0000 L CNN
-F 2 "" H 9000 4750 50  0001 C CNN
-F 3 "~" H 9000 4750 50  0001 C CNN
-	1    9000 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8500 4550 8800 4550
 Wire Wire Line
@@ -1506,15 +1495,15 @@ Text GLabel 2500 6750 0    50   Input ~ 0
 P3
 Text GLabel 2500 6850 0    50   Input ~ 0
 P4
-Text GLabel 2000 5250 0    50   Input ~ 0
+Text GLabel 2500 6450 0    50   Input ~ 0
 ~WR
-Text GLabel 1850 5350 0    50   Input ~ 0
+Text GLabel 4700 6650 2    50   Input ~ 0
 ~CS
-Text GLabel 1850 5150 0    50   Input ~ 0
+Text GLabel 2350 6350 0    50   Input ~ 0
 ~EN
 Text GLabel 4300 8050 2    50   Input ~ 0
 D
-Text GLabel 2000 4950 0    50   Input ~ 0
+Text GLabel 4300 6550 2    50   Input ~ 0
 LIGHT_EN
 Text GLabel 5350 6750 0    50   Output ~ 0
 HOLD_SW
@@ -1668,4 +1657,23 @@ Wire Wire Line
 	7200 8150 7100 8150
 Wire Wire Line
 	7200 8250 7100 8250
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 61ECCE02
+P 9000 4750
+F 0 "J?" H 9080 4742 50  0000 L CNN
+F 1 "Conn_01x06" H 9080 4651 50  0000 L CNN
+F 2 "" H 9000 4750 50  0001 C CNN
+F 3 "~" H 9000 4750 50  0001 C CNN
+	1    9000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 6550 4200 6550
+Wire Wire Line
+	2500 6450 2600 6450
+Wire Wire Line
+	2350 6350 2600 6350
+Wire Wire Line
+	4700 6650 4200 6650
 $EndSCHEMATC

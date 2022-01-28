@@ -942,7 +942,7 @@ $EndComp
 Wire Wire Line
 	11600 2400 11600 2300
 Wire Wire Line
-	11600 3200 11600 3100
+	11600 3200 11600 3150
 $Comp
 L Switch:SW_SPST SW?
 U 1 1 61EB9495
@@ -1495,15 +1495,15 @@ Text GLabel 2500 6750 0    50   Input ~ 0
 P3
 Text GLabel 2500 6850 0    50   Input ~ 0
 P4
-Text GLabel 2000 5250 0    50   Input ~ 0
+Text GLabel 2500 6450 0    50   Input ~ 0
 ~WR
-Text GLabel 1850 5350 0    50   Input ~ 0
+Text GLabel 4700 6650 2    50   Input ~ 0
 ~CS
-Text GLabel 1850 5150 0    50   Input ~ 0
+Text GLabel 2350 6350 0    50   Input ~ 0
 ~EN
 Text GLabel 4300 8050 2    50   Input ~ 0
 D
-Text GLabel 2000 4950 0    50   Input ~ 0
+Text GLabel 4300 6550 2    50   Input ~ 0
 LIGHT_EN
 Text GLabel 5350 6750 0    50   Output ~ 0
 HOLD_SW
@@ -1668,4 +1668,43 @@ F 3 "~" H 9000 4750 50  0001 C CNN
 	1    9000 4750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4300 6550 4200 6550
+Wire Wire Line
+	2500 6450 2600 6450
+Wire Wire Line
+	2350 6350 2600 6350
+Wire Wire Line
+	4700 6650 4200 6650
+$Comp
+L power:+VDC #PWR?
+U 1 1 6200D369
+P 11250 3100
+F 0 "#PWR?" H 11250 3000 50  0001 C CNN
+F 1 "+VDC" H 11250 3375 50  0000 C CNN
+F 2 "" H 11250 3100 50  0001 C CNN
+F 3 "" H 11250 3100 50  0001 C CNN
+	1    11250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6200E122
+P 11400 3150
+F 0 "R?" H 11459 3196 50  0000 L CNN
+F 1 "100k" H 11459 3105 50  0000 L CNN
+F 2 "" H 11400 3150 50  0001 C CNN
+F 3 "~" H 11400 3150 50  0001 C CNN
+	1    11400 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11500 3150 11600 3150
+Connection ~ 11600 3150
+Wire Wire Line
+	11600 3150 11600 3100
+Wire Wire Line
+	11250 3100 11250 3150
+Wire Wire Line
+	11250 3150 11300 3150
 $EndSCHEMATC

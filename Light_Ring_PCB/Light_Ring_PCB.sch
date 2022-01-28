@@ -3075,101 +3075,97 @@ Wire Wire Line
 Wire Wire Line
 	9950 2800 9950 3050
 Text GLabel 1350 1350 2    50   Output ~ 0
-S1
+L1
 Text GLabel 1350 3000 2    50   Output ~ 0
-S2
+L2
 Text GLabel 1350 4650 2    50   Output ~ 0
-S3
+L3
 Text GLabel 1350 6300 2    50   Output ~ 0
-S4
+L4
 Text GLabel 2550 1350 2    50   Output ~ 0
-S5
+L5
 Text GLabel 2550 3000 2    50   Output ~ 0
-S6
+L6
 Text GLabel 2550 4650 2    50   Output ~ 0
-S7
+L7
 Text GLabel 2550 6300 2    50   Output ~ 0
-S8
+L8
 Text GLabel 3700 1300 2    50   Output ~ 0
-S9
+L9
 Text GLabel 3700 2950 2    50   Output ~ 0
-S10
+L10
 Text GLabel 3700 4600 2    50   Output ~ 0
-S11
+L11
 Text GLabel 3700 6250 2    50   Output ~ 0
-S12
+L12
 Text GLabel 4900 1300 2    50   Output ~ 0
-S13
+L13
 Text GLabel 4900 2950 2    50   Output ~ 0
-S14
+L14
 Text GLabel 4900 4600 2    50   Output ~ 0
-S15
+L15
 Text GLabel 4900 6250 2    50   Output ~ 0
-S16
+L16
 Text GLabel 6100 1300 2    50   Output ~ 0
-S17
+L17
 Text GLabel 6100 2950 2    50   Output ~ 0
-S18
+L18
 Text GLabel 7300 1300 2    50   Output ~ 0
-S19
+L19
 Text GLabel 7300 2950 2    50   Output ~ 0
-S20
+L20
 Text GLabel 8500 1300 2    50   Output ~ 0
-S21
+L21
 Text GLabel 8500 2950 2    50   Output ~ 0
-S22
+L22
 Text GLabel 9700 1300 2    50   Output ~ 0
-S23
+L23
 Text GLabel 9700 2950 2    50   Output ~ 0
-S24
-Text GLabel 8200 5400 0    50   Input ~ 0
-S1
-Text GLabel 8200 4700 0    50   Input ~ 0
-S8
-Text GLabel 8200 4300 0    50   Input ~ 0
-S12
-Text GLabel 8200 4400 0    50   Input ~ 0
-S11
-Text GLabel 8200 4500 0    50   Input ~ 0
-S10
-Text GLabel 8200 4600 0    50   Input ~ 0
-S9
-Text GLabel 8200 4800 0    50   Input ~ 0
-S7
-Text GLabel 8200 4900 0    50   Input ~ 0
-S6
+L24
 Text GLabel 8200 5000 0    50   Input ~ 0
-S5
-Text GLabel 8200 5100 0    50   Input ~ 0
-S4
-Text GLabel 8200 5200 0    50   Input ~ 0
-S3
-Text GLabel 8200 5300 0    50   Input ~ 0
-S2
-Text GLabel 8650 3950 1    50   Input ~ 0
-S13
-Text GLabel 8750 3950 1    50   Input ~ 0
-S14
-Text GLabel 8850 3950 1    50   Input ~ 0
-S15
-Text GLabel 8950 3950 1    50   Input ~ 0
-S16
-Text GLabel 10200 5400 2    50   Input ~ 0
-S17
-Text GLabel 10200 5300 2    50   Input ~ 0
-S18
-Text GLabel 10200 5100 2    50   Input ~ 0
-S20
-Text GLabel 10200 4900 2    50   Input ~ 0
-S22
+L1
+Text GLabel 8200 4300 0    50   Input ~ 0
+L8
+Text GLabel 10200 4600 2    50   Input ~ 0
+L12
+Text GLabel 10200 4500 2    50   Input ~ 0
+L11
+Text GLabel 10200 4400 2    50   Input ~ 0
+L10
+Text GLabel 10200 4300 2    50   Input ~ 0
+L9
+Text GLabel 8200 4400 0    50   Input ~ 0
+L7
+Text GLabel 8200 4500 0    50   Input ~ 0
+L6
+Text GLabel 8200 4600 0    50   Input ~ 0
+L5
+Text GLabel 8200 4700 0    50   Input ~ 0
+L4
+Text GLabel 8200 4900 0    50   Input ~ 0
+L2
 Text GLabel 10200 4700 2    50   Input ~ 0
-S24
+L13
 Text GLabel 10200 4800 2    50   Input ~ 0
-S23
+L14
+Text GLabel 10200 4900 2    50   Input ~ 0
+L15
 Text GLabel 10200 5000 2    50   Input ~ 0
-S21
+L16
+Text GLabel 10200 5100 2    50   Input ~ 0
+L17
 Text GLabel 10200 5200 2    50   Input ~ 0
-S19
+L18
+Text GLabel 10200 5400 2    50   Input ~ 0
+L20
+Text GLabel 8200 5300 0    50   Input ~ 0
+L22
+Text GLabel 8200 5200 0    50   Input ~ 0
+L23
+Text GLabel 8200 5400 0    50   Input ~ 0
+L21
+Text GLabel 10200 5300 2    50   Input ~ 0
+L19
 $Comp
 L Device:LED D19
 U 1 1 60A1DCFB
@@ -3181,76 +3177,9 @@ F 3 "~" H 7550 1550 50  0001 C CNN
 	1    7550 1550
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Main_Board:ADG732 U1
-U 1 1 61F76C65
-P 9200 4850
-F 0 "U1" H 8400 5600 50  0000 L CNN
-F 1 "ADG732" H 9050 4850 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 9700 3850 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/adg726_732.pdf" H 8700 5250 50  0001 C CNN
-	1    9200 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 5400 8300 5400
-Wire Wire Line
-	8200 5300 8300 5300
-Wire Wire Line
-	8200 5200 8300 5200
-Wire Wire Line
-	8200 5100 8300 5100
-Wire Wire Line
-	8200 5000 8300 5000
-Wire Wire Line
-	8200 4900 8300 4900
-Wire Wire Line
-	8200 4800 8300 4800
-Wire Wire Line
-	8200 4700 8300 4700
-Wire Wire Line
-	8200 4600 8300 4600
-Wire Wire Line
-	8200 4500 8300 4500
-Wire Wire Line
-	8200 4400 8300 4400
-Wire Wire Line
-	8200 4300 8300 4300
-Wire Wire Line
-	8650 3950 8650 4050
-Wire Wire Line
-	8750 3950 8750 4050
-Wire Wire Line
-	8850 3950 8850 4050
-Wire Wire Line
-	8950 3950 8950 4050
-Wire Wire Line
-	10200 4700 10100 4700
-Wire Wire Line
-	10200 4800 10100 4800
-Wire Wire Line
-	10200 4900 10100 4900
-Wire Wire Line
-	10200 5000 10100 5000
-Wire Wire Line
-	10200 5100 10100 5100
-Wire Wire Line
-	10200 5200 10100 5200
-Wire Wire Line
-	10200 5300 10100 5300
-Wire Wire Line
-	10200 5400 10100 5400
 NoConn ~ 9050 4050
 NoConn ~ 9250 4050
 NoConn ~ 9350 4050
-NoConn ~ 9450 4050
-NoConn ~ 9550 4050
-NoConn ~ 9650 4050
-NoConn ~ 9750 4050
-NoConn ~ 10100 4600
-NoConn ~ 10100 4500
-NoConn ~ 10100 4400
-NoConn ~ 10100 4300
 $Comp
 L Device:C C26
 U 1 1 62619B40
@@ -3354,7 +3283,7 @@ U 1 1 6275D934
 P 7050 4950
 F 0 "J1" V 7100 4700 50  0000 R CNN
 F 1 "LIGHT_OUT" V 7100 5250 50  0000 R CNN
-F 2 "Connector_JST:JST_PHD_B14B-PHDSS_2x07_P2.00mm_Vertical" H 7050 4950 50  0001 C CNN
+F 2 "Connector_Hirose:Hirose_DF11-14DP-2DSA_2x07_P2.00mm_Vertical" H 7050 4950 50  0001 C CNN
 F 3 "~" H 7050 4950 50  0001 C CNN
 	1    7050 4950
 	1    0    0    -1  
@@ -3474,7 +3403,7 @@ Text GLabel 7600 4850 2    50   Output ~ 0
 Text GLabel 7450 4950 2    50   Output ~ 0
 ~WR
 Text GLabel 7600 5050 2    50   Output ~ 0
-~CS
+~CL
 Wire Wire Line
 	7450 4950 7350 4950
 Wire Wire Line
@@ -3516,7 +3445,7 @@ Text GLabel 9550 5900 3    50   Input ~ 0
 Text GLabel 9450 5750 3    50   Input ~ 0
 ~WR
 Text GLabel 9350 5900 3    50   Input ~ 0
-~CS
+~CL
 Wire Wire Line
 	9750 5850 9750 5750
 Connection ~ 9750 5750
@@ -3524,4 +3453,75 @@ Wire Wire Line
 	9550 5650 9550 5900
 Wire Wire Line
 	9350 5650 9350 5900
+Text GLabel 8200 5100 0    50   Input ~ 0
+L24
+$Comp
+L Main_Board:ADG732 U1
+U 1 1 61F76C65
+P 9200 4850
+F 0 "U1" H 8400 5600 50  0000 L CNN
+F 1 "ADG732" H 9050 4850 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 9700 3850 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/adg726_732.pdf" H 8700 5250 50  0001 C CNN
+	1    9200 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 4800 0    50   Input ~ 0
+L3
+Wire Wire Line
+	8200 5400 8300 5400
+Wire Wire Line
+	8200 5300 8300 5300
+Wire Wire Line
+	8200 5200 8300 5200
+Wire Wire Line
+	8200 5100 8300 5100
+Wire Wire Line
+	8200 5000 8300 5000
+Wire Wire Line
+	8200 4900 8300 4900
+Wire Wire Line
+	8200 4800 8300 4800
+Wire Wire Line
+	8200 4700 8300 4700
+Wire Wire Line
+	8200 4600 8300 4600
+Wire Wire Line
+	8200 4500 8300 4500
+Wire Wire Line
+	8200 4400 8300 4400
+Wire Wire Line
+	8200 4300 8300 4300
+NoConn ~ 8650 4050
+NoConn ~ 8750 4050
+NoConn ~ 8850 4050
+NoConn ~ 8950 4050
+NoConn ~ 9450 4050
+NoConn ~ 9550 4050
+NoConn ~ 9650 4050
+NoConn ~ 9750 4050
+Wire Wire Line
+	10100 4300 10200 4300
+Wire Wire Line
+	10200 4400 10100 4400
+Wire Wire Line
+	10100 4500 10200 4500
+Wire Wire Line
+	10200 4600 10100 4600
+Wire Wire Line
+	10100 4700 10200 4700
+Wire Wire Line
+	10200 4800 10100 4800
+Wire Wire Line
+	10100 4900 10200 4900
+Wire Wire Line
+	10200 5000 10100 5000
+Wire Wire Line
+	10100 5100 10200 5100
+Wire Wire Line
+	10200 5200 10100 5200
+Wire Wire Line
+	10100 5300 10200 5300
+Wire Wire Line
+	10200 5400 10100 5400
 $EndSCHEMATC

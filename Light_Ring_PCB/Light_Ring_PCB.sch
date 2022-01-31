@@ -3410,20 +3410,16 @@ Wire Wire Line
 	7600 4850 7350 4850
 Wire Wire Line
 	7350 5050 7600 5050
-Text GLabel 6750 4850 0    50   Output ~ 0
-P0
 Text GLabel 6750 4950 0    50   Output ~ 0
+P0
+Text GLabel 6750 4850 0    50   Output ~ 0
 P1
-Text GLabel 6750 5050 0    50   Output ~ 0
-P2
 Text GLabel 6750 5150 0    50   Output ~ 0
+P2
+Text GLabel 6750 5050 0    50   Output ~ 0
 P3
 Text GLabel 6750 5250 0    50   Output ~ 0
 P4
-Wire Wire Line
-	6750 4850 6850 4850
-Wire Wire Line
-	6750 4950 6850 4950
 Wire Wire Line
 	6750 5050 6850 5050
 Wire Wire Line
@@ -3524,4 +3520,8 @@ Wire Wire Line
 	10100 5300 10200 5300
 Wire Wire Line
 	10200 5400 10100 5400
+Wire Wire Line
+	6750 4950 6850 4950
+Wire Wire Line
+	6750 4850 6850 4850
 $EndSCHEMATC

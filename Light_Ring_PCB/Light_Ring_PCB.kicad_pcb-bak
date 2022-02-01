@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.5+dfsg1-2build2)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.12)-1")
 
   (general
     (thickness 1.6)
@@ -68,7 +68,7 @@
     (grid_origin 206.3981 128.4818)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x01008_7ffffffe)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -89,7 +89,7 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk true)
-      (outputformat 1)
+      (outputformat 5)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
@@ -327,6 +327,11 @@
       (net 36 PCB_EN))
     (model ${KISYS3DMOD}/Connector_Hirose.3dshapes/Hirose_DF11-14DP-2DSA_2x07_P2.00mm_Vertical.wrl
       (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/lib/DF51A-14DP-2DSA.stp
+      (offset (xyz 6 -1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -7588,7 +7593,7 @@
   (segment (start 208.948258 135.0398) (end 209.7066 135.0398) (width 0.25) (layer F.Cu) (net 68))
   (segment (start 207.784082 136.203976) (end 208.948258 135.0398) (width 0.25) (layer F.Cu) (net 68))
 
-  (zone (net 26) (net_name +5V) (layer F.Cu) (tstamp 61F832E4) (hatch edge 0.508)
+  (zone (net 26) (net_name +5V) (layer F.Cu) (tstamp 61F85314) (hatch edge 0.508)
     (connect_pads yes (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.255) (thermal_bridge_width 0.255))
@@ -9255,7 +9260,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 61F832E1) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 61F85311) (hatch edge 0.508)
     (connect_pads yes (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

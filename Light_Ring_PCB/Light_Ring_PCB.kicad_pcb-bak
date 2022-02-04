@@ -325,11 +325,6 @@
       (net 35 ~EN))
     (pad 14 thru_hole oval (at 12 -2 270) (size 1.2 1.65) (drill 0.85) (layers *.Cu *.Mask)
       (net 36 PCB_EN))
-    (model ${KISYS3DMOD}/Connector_Hirose.3dshapes/Hirose_DF11-14DP-2DSA_2x07_P2.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     (model ${KIPRJMOD}/lib/DF51A-14DP-2DSA.stp
       (offset (xyz 6 -1 0))
       (scale (xyz 1 1 1))

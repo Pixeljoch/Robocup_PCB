@@ -31,21 +31,6 @@ Wire Wire Line
 Connection ~ 4050 10500
 Wire Wire Line
 	4700 10500 4050 10500
-$Comp
-L TEENSY_4_1:TEENSY_4_1 U1
-U 1 1 61B35EEE
-P 2600 8700
-F 0 "U1" H 2600 10867 50  0000 C CNN
-F 1 "TEENSY_4_1_MASTER" H 2600 10776 50  0000 C CNN
-F 2 "Main_Board:TEENSY_4_1_FP" H 2600 8700 50  0001 L BNN
-F 3 "" H 2600 8700 50  0001 L BNN
-F 4 "Manufacturer recommendations" H 2600 8700 50  0001 L BNN "STANDARD"
-F 5 "4.07mm" H 2600 8700 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "4.1" H 2600 8700 50  0001 L BNN "PARTREV"
-F 7 "SparkFun Electronics" H 2600 8700 50  0001 L BNN "MANUFACTURER"
-	1    2600 8700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 7300 6350 7300
 Wire Wire Line
@@ -56,17 +41,6 @@ Wire Wire Line
 	1750 7300 1800 7300
 NoConn ~ 3400 7100
 NoConn ~ 4700 7100
-$Comp
-L Connector_Generic:Conn_02x07_Counter_Clockwise J8
-U 1 1 62B05C9E
-P 9400 5350
-F 0 "J8" H 9450 5867 50  0000 C CNN
-F 1 "Conn_02x07_Counter_Clockwise" H 9850 5800 50  0000 C CNN
-F 2 "Connector_Hirose:Hirose_DF11-14DP-2DSA_2x07_P2.00mm_Vertical" H 9400 5350 50  0001 C CNN
-F 3 "~" H 9400 5350 50  0001 C CNN
-	1    9400 5350
-	1    0    0    -1  
-$EndComp
 Text GLabel 9100 5350 0    50   Input ~ 0
 P0
 Text GLabel 9100 5250 0    50   Input ~ 0
@@ -650,33 +624,31 @@ Wire Wire Line
 	6450 8100 6300 8100
 Wire Wire Line
 	6450 8200 6300 8200
-Text GLabel 3550 9900 2    50   Input ~ 0
-IR14
-Text GLabel 3550 10000 2    50   Input ~ 0
-IR13
-Text GLabel 3550 10100 2    50   Input ~ 0
-IR12
-Text GLabel 3550 10200 2    50   Input ~ 0
-IR11
-Text GLabel 3550 10300 2    50   Input ~ 0
-IR10
-Text GLabel 1650 10300 0    50   Input ~ 0
-IR9
-Text GLabel 1650 10200 0    50   Input ~ 0
-IR8
-Text GLabel 1650 10100 0    50   Input ~ 0
-IR7
-Text GLabel 1650 10000 0    50   Input ~ 0
-IR6
-Text GLabel 1650 9900 0    50   Input ~ 0
-IR5
-Text GLabel 1650 9800 0    50   Input ~ 0
-IR4
 Text GLabel 1650 9700 0    50   Input ~ 0
-IR3
+IR14
 Text GLabel 1650 9600 0    50   Input ~ 0
-IR2
+IR13
 Text GLabel 1650 9500 0    50   Input ~ 0
+IR12
+Text GLabel 3550 9500 2    50   Input ~ 0
+IR11
+Text GLabel 3550 9600 2    50   Input ~ 0
+IR10
+Text GLabel 3550 9800 2    50   Input ~ 0
+IR9
+Text GLabel 3550 9900 2    50   Input ~ 0
+IR8
+Text GLabel 3550 10000 2    50   Input ~ 0
+IR7
+Text GLabel 3550 10200 2    50   Input ~ 0
+IR6
+Text GLabel 3550 10300 2    50   Input ~ 0
+IR5
+Text GLabel 1650 10100 0    50   Input ~ 0
+IR3
+Text GLabel 1650 10000 0    50   Input ~ 0
+IR2
+Text GLabel 1650 9900 0    50   Input ~ 0
 IR1
 Wire Wire Line
 	1650 9500 1800 9500
@@ -685,23 +657,15 @@ Wire Wire Line
 Wire Wire Line
 	1650 9700 1800 9700
 Wire Wire Line
-	1650 9800 1800 9800
-Wire Wire Line
-	1650 9900 1800 9900
-Wire Wire Line
 	1650 10000 1800 10000
 Wire Wire Line
 	1650 10100 1800 10100
-Wire Wire Line
-	1650 10200 1800 10200
 Wire Wire Line
 	1650 10300 1800 10300
 Wire Wire Line
 	3550 10300 3400 10300
 Wire Wire Line
 	3550 10200 3400 10200
-Wire Wire Line
-	3550 10100 3400 10100
 Wire Wire Line
 	3550 10000 3400 10000
 Wire Wire Line
@@ -2493,10 +2457,6 @@ NoConn ~ 4700 7600
 NoConn ~ 4700 7700
 NoConn ~ 4700 7900
 NoConn ~ 4700 8000
-NoConn ~ 3400 9500
-NoConn ~ 3400 9600
-NoConn ~ 3400 9700
-NoConn ~ 3400 9800
 $Comp
 L Connector_Generic:Conn_02x08_Top_Bottom J5
 U 1 1 6292CD13
@@ -2578,7 +2538,7 @@ U 1 1 6204F2B5
 P 8700 10350
 F 0 "J7" H 8780 10342 50  0000 L CNN
 F 1 "Conn_01x08" H 8780 10251 50  0000 L CNN
-F 2 "" H 8700 10350 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 8700 10350 50  0001 C CNN
 F 3 "~" H 8700 10350 50  0001 C CNN
 	1    8700 10350
 	1    0    0    -1  
@@ -2591,4 +2551,45 @@ Wire Wire Line
 	8500 10150 8450 10150
 Wire Wire Line
 	8450 10150 8450 10000
+Wire Wire Line
+	3550 9500 3400 9500
+$Comp
+L TEENSY_4_1:TEENSY_4_1 U1
+U 1 1 61B35EEE
+P 2600 8700
+F 0 "U1" H 2600 10867 50  0000 C CNN
+F 1 "TEENSY_4_1_MASTER" H 2600 10776 50  0000 C CNN
+F 2 "Main_Board:TEENSY_4_1_FP" H 2600 8700 50  0001 L BNN
+F 3 "" H 2600 8700 50  0001 L BNN
+F 4 "Manufacturer recommendations" H 2600 8700 50  0001 L BNN "STANDARD"
+F 5 "4.07mm" H 2600 8700 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "4.1" H 2600 8700 50  0001 L BNN "PARTREV"
+F 7 "SparkFun Electronics" H 2600 8700 50  0001 L BNN "MANUFACTURER"
+	1    2600 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 9900 1800 9900
+Text GLabel 1650 10300 0    50   Input ~ 0
+IR4
+Wire Wire Line
+	3550 9600 3400 9600
+Wire Wire Line
+	3550 9800 3400 9800
+NoConn ~ 1800 9800
+NoConn ~ 1800 10200
+NoConn ~ 3400 10100
+NoConn ~ 3400 9700
+$Comp
+L Connector_Generic:Conn_02x07_Counter_Clockwise J8
+U 1 1 62B05C9E
+P 9500 5350
+F 0 "J8" H 9550 5867 50  0000 C CNN
+F 1 "Conn_02x07_Counter_Clockwise" H 9950 5800 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF11-14DP-2DSA_2x07_P2.00mm_Vertical" H 9500 5350 50  0001 C CNN
+F 3 "~" H 9500 5350 50  0001 C CNN
+	1    9500 5350
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9100 5150
 $EndSCHEMATC

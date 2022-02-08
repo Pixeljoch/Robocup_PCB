@@ -31,21 +31,6 @@ Wire Wire Line
 Connection ~ 4050 10500
 Wire Wire Line
 	4700 10500 4050 10500
-$Comp
-L TEENSY_4_1:TEENSY_4_1 U1
-U 1 1 61B35EEE
-P 2600 8700
-F 0 "U1" H 2600 10867 50  0000 C CNN
-F 1 "TEENSY_4_1_MASTER" H 2600 10776 50  0000 C CNN
-F 2 "Main_Board:TEENSY_4_1_FP" H 2600 8700 50  0001 L BNN
-F 3 "" H 2600 8700 50  0001 L BNN
-F 4 "Manufacturer recommendations" H 2600 8700 50  0001 L BNN "STANDARD"
-F 5 "4.07mm" H 2600 8700 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "4.1" H 2600 8700 50  0001 L BNN "PARTREV"
-F 7 "SparkFun Electronics" H 2600 8700 50  0001 L BNN "MANUFACTURER"
-	1    2600 8700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 7300 6350 7300
 Wire Wire Line
@@ -423,17 +408,6 @@ F 3 "~" H 8500 9200 50  0001 C CNN
 	1    8500 9200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J7
-U 1 1 61EF5837
-P 8500 10200
-F 0 "J7" H 8580 10192 50  0000 L CNN
-F 1 "OLED_CONN" H 8580 10101 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8500 10200 50  0001 C CNN
-F 3 "~" H 8500 10200 50  0001 C CNN
-	1    8500 10200
-	1    0    0    -1  
-$EndComp
 Text GLabel 12100 8150 0    50   Input ~ 0
 LED_DIN
 Text GLabel 4550 8200 0    50   Output ~ 0
@@ -470,33 +444,29 @@ Text GLabel 6450 9600 2    50   Output ~ 0
 HOLD_SW
 Text GLabel 4550 8400 0    50   Output ~ 0
 LED_DIN
-Text GLabel 8200 10200 0    50   Input ~ 0
+Text GLabel 8400 10750 0    50   Input ~ 0
 OLED_SDA
-Text GLabel 8200 10300 0    50   Input ~ 0
+Text GLabel 8400 10650 0    50   Input ~ 0
 OLED_SCL
 Wire Wire Line
-	8200 10200 8300 10200
+	8400 10750 8500 10750
 Wire Wire Line
-	8200 10300 8300 10300
-Wire Wire Line
-	8250 10050 8250 10100
-Wire Wire Line
-	8250 10100 8300 10100
+	8400 10650 8500 10650
 $Comp
 L power:GND #PWR021
 U 1 1 620F9588
-P 8250 10450
-F 0 "#PWR021" H 8250 10200 50  0001 C CNN
-F 1 "GND" H 8255 10277 50  0000 C CNN
-F 2 "" H 8250 10450 50  0001 C CNN
-F 3 "" H 8250 10450 50  0001 C CNN
-	1    8250 10450
+P 8350 10100
+F 0 "#PWR021" H 8350 9850 50  0001 C CNN
+F 1 "GND" H 8355 9927 50  0000 C CNN
+F 2 "" H 8350 10100 50  0001 C CNN
+F 3 "" H 8350 10100 50  0001 C CNN
+	1    8350 10100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 10450 8250 10400
+	8350 10100 8350 10050
 Wire Wire Line
-	8250 10400 8300 10400
+	8350 10050 8500 10050
 Text GLabel 8200 9200 0    50   Output ~ 0
 MAGN_SDA
 Text GLabel 8200 9300 0    50   Output ~ 0
@@ -557,12 +527,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR020
 U 1 1 62001B8E
-P 8250 10050
-F 0 "#PWR020" H 8250 9900 50  0001 C CNN
-F 1 "+3.3V" H 8265 10223 50  0000 C CNN
-F 2 "" H 8250 10050 50  0001 C CNN
-F 3 "" H 8250 10050 50  0001 C CNN
-	1    8250 10050
+P 8450 10000
+F 0 "#PWR020" H 8450 9850 50  0001 C CNN
+F 1 "+3.3V" H 8465 10173 50  0000 C CNN
+F 2 "" H 8450 10000 50  0001 C CNN
+F 3 "" H 8450 10000 50  0001 C CNN
+	1    8450 10000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -665,33 +635,31 @@ Wire Wire Line
 	6450 8100 6300 8100
 Wire Wire Line
 	6450 8200 6300 8200
-Text GLabel 3550 9900 2    50   Input ~ 0
-IR14
-Text GLabel 3550 10000 2    50   Input ~ 0
-IR13
-Text GLabel 3550 10100 2    50   Input ~ 0
-IR12
-Text GLabel 3550 10200 2    50   Input ~ 0
-IR11
-Text GLabel 3550 10300 2    50   Input ~ 0
-IR10
-Text GLabel 1650 10300 0    50   Input ~ 0
-IR9
-Text GLabel 1650 10200 0    50   Input ~ 0
-IR8
-Text GLabel 1650 10100 0    50   Input ~ 0
-IR7
-Text GLabel 1650 10000 0    50   Input ~ 0
-IR6
-Text GLabel 1650 9900 0    50   Input ~ 0
-IR5
-Text GLabel 1650 9800 0    50   Input ~ 0
-IR4
 Text GLabel 1650 9700 0    50   Input ~ 0
-IR3
+IR14
 Text GLabel 1650 9600 0    50   Input ~ 0
-IR2
+IR13
 Text GLabel 1650 9500 0    50   Input ~ 0
+IR12
+Text GLabel 3550 9500 2    50   Input ~ 0
+IR11
+Text GLabel 3550 9600 2    50   Input ~ 0
+IR10
+Text GLabel 3550 9800 2    50   Input ~ 0
+IR9
+Text GLabel 3550 9900 2    50   Input ~ 0
+IR8
+Text GLabel 3550 10000 2    50   Input ~ 0
+IR7
+Text GLabel 3550 10200 2    50   Input ~ 0
+IR6
+Text GLabel 3550 10300 2    50   Input ~ 0
+IR5
+Text GLabel 1650 10100 0    50   Input ~ 0
+IR3
+Text GLabel 1650 10000 0    50   Input ~ 0
+IR2
+Text GLabel 1650 9900 0    50   Input ~ 0
 IR1
 Wire Wire Line
 	1650 9500 1800 9500
@@ -700,23 +668,15 @@ Wire Wire Line
 Wire Wire Line
 	1650 9700 1800 9700
 Wire Wire Line
-	1650 9800 1800 9800
-Wire Wire Line
-	1650 9900 1800 9900
-Wire Wire Line
 	1650 10000 1800 10000
 Wire Wire Line
 	1650 10100 1800 10100
-Wire Wire Line
-	1650 10200 1800 10200
 Wire Wire Line
 	1650 10300 1800 10300
 Wire Wire Line
 	3550 10300 3400 10300
 Wire Wire Line
 	3550 10200 3400 10200
-Wire Wire Line
-	3550 10100 3400 10100
 Wire Wire Line
 	3550 10000 3400 10000
 Wire Wire Line
@@ -2508,10 +2468,6 @@ NoConn ~ 4700 7600
 NoConn ~ 4700 7700
 NoConn ~ 4700 7900
 NoConn ~ 4700 8000
-NoConn ~ 3400 9500
-NoConn ~ 3400 9600
-NoConn ~ 3400 9700
-NoConn ~ 3400 9800
 $Comp
 L Connector_Generic:Conn_02x08_Top_Bottom J5
 U 1 1 6292CD13
@@ -2587,4 +2543,52 @@ Wire Wire Line
 NoConn ~ 12200 9400
 Wire Wire Line
 	12100 8150 12200 8150
+$Comp
+L Connector_Generic:Conn_01x08 J7
+U 1 1 6204F2B5
+P 8700 10350
+F 0 "J7" H 8780 10342 50  0000 L CNN
+F 1 "Conn_01x08" H 8780 10251 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 8700 10350 50  0001 C CNN
+F 3 "~" H 8700 10350 50  0001 C CNN
+	1    8700 10350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8500 10550
+NoConn ~ 8500 10450
+NoConn ~ 8500 10350
+NoConn ~ 8500 10250
+Wire Wire Line
+	8500 10150 8450 10150
+Wire Wire Line
+	8450 10150 8450 10000
+Wire Wire Line
+	3550 9500 3400 9500
+$Comp
+L TEENSY_4_1:TEENSY_4_1 U1
+U 1 1 61B35EEE
+P 2600 8700
+F 0 "U1" H 2600 10867 50  0000 C CNN
+F 1 "TEENSY_4_1_MASTER" H 2600 10776 50  0000 C CNN
+F 2 "Main_Board:TEENSY_4_1_FP" H 2600 8700 50  0001 L BNN
+F 3 "" H 2600 8700 50  0001 L BNN
+F 4 "Manufacturer recommendations" H 2600 8700 50  0001 L BNN "STANDARD"
+F 5 "4.07mm" H 2600 8700 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "4.1" H 2600 8700 50  0001 L BNN "PARTREV"
+F 7 "SparkFun Electronics" H 2600 8700 50  0001 L BNN "MANUFACTURER"
+	1    2600 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 9900 1800 9900
+Text GLabel 1650 10300 0    50   Input ~ 0
+IR4
+Wire Wire Line
+	3550 9600 3400 9600
+Wire Wire Line
+	3550 9800 3400 9800
+NoConn ~ 1800 9800
+NoConn ~ 1800 10200
+NoConn ~ 3400 10100
+NoConn ~ 3400 9700
 $EndSCHEMATC

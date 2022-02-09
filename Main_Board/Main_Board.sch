@@ -41,21 +41,21 @@ Wire Wire Line
 	1750 7300 1800 7300
 NoConn ~ 3400 7100
 NoConn ~ 4700 7100
-Text GLabel 9100 5350 0    50   Input ~ 0
-P0
 Text GLabel 9100 5250 0    50   Input ~ 0
+P0
+Text GLabel 9100 5350 0    50   Input ~ 0
 P1
-Text GLabel 9100 5550 0    50   Input ~ 0
-P2
 Text GLabel 9100 5450 0    50   Input ~ 0
+P2
+Text GLabel 9100 5550 0    50   Input ~ 0
 P3
-Text GLabel 9100 5650 0    50   Input ~ 0
+Text GLabel 9800 5650 2    50   Input ~ 0
 P4
-Text GLabel 9800 5350 2    50   Input ~ 0
+Text GLabel 9950 5250 2    50   Input ~ 0
 ~WR
-Text GLabel 9950 5450 2    50   Input ~ 0
+Text GLabel 9800 5550 2    50   Input ~ 0
 ~CS
-Text GLabel 9800 5150 2    50   Output ~ 0
+Text GLabel 9800 5050 2    50   Output ~ 0
 D
 Wire Wire Line
 	9100 5000 9100 5050
@@ -69,23 +69,18 @@ Wire Wire Line
 $Comp
 L power:GND #PWR028
 U 1 1 62B2F872
-P 9800 5700
-F 0 "#PWR028" H 9800 5450 50  0001 C CNN
-F 1 "GND" H 9805 5527 50  0000 C CNN
-F 2 "" H 9800 5700 50  0001 C CNN
-F 3 "" H 9800 5700 50  0001 C CNN
-	1    9800 5700
+P 9050 5700
+F 0 "#PWR028" H 9050 5450 50  0001 C CNN
+F 1 "GND" H 9055 5527 50  0000 C CNN
+F 2 "" H 9050 5700 50  0001 C CNN
+F 3 "" H 9050 5700 50  0001 C CNN
+	1    9050 5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9800 5700 9800 5650
 Wire Wire Line
 	9800 5550 9700 5550
 Wire Wire Line
 	9700 5650 9800 5650
-Connection ~ 9800 5650
-Wire Wire Line
-	9800 5650 9800 5550
 Wire Wire Line
 	9100 5250 9200 5250
 Wire Wire Line
@@ -95,16 +90,10 @@ Wire Wire Line
 Wire Wire Line
 	9100 5550 9200 5550
 Wire Wire Line
-	9100 5650 9200 5650
-Wire Wire Line
 	9800 5150 9700 5150
 Wire Wire Line
-	9950 5250 9700 5250
-Wire Wire Line
 	9800 5350 9700 5350
-Wire Wire Line
-	9950 5450 9700 5450
-Text GLabel 9800 5050 2    50   Input ~ 0
+Text GLabel 9800 5150 2    50   Input ~ 0
 LIGHT_EN
 Wire Wire Line
 	9800 5050 9700 5050
@@ -114,24 +103,9 @@ Wire Wire Line
 	3400 9200 4700 9200
 Wire Wire Line
 	3400 8900 4700 8900
-$Comp
-L TEENSY_4_1:TEENSY_4_1 U2
-U 1 1 61B38CB8
-P 5500 8700
-F 0 "U2" H 5500 10867 50  0000 C CNN
-F 1 "TEENSY_4_1_SLAVE" H 5500 10776 50  0000 C CNN
-F 2 "Main_Board:TEENSY_4_1_FP" H 5500 8700 50  0001 L BNN
-F 3 "" H 5500 8700 50  0001 L BNN
-F 4 "Manufacturer recommendations" H 5500 8700 50  0001 L BNN "STANDARD"
-F 5 "4.07mm" H 5500 8700 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "4.1" H 5500 8700 50  0001 L BNN "PARTREV"
-F 7 "SparkFun Electronics" H 5500 8700 50  0001 L BNN "MANUFACTURER"
-	1    5500 8700
-	-1   0    0    -1  
-$EndComp
 Text GLabel 1700 9300 0    50   Output ~ 0
 SCK_MASTER
-Text GLabel 6450 9300 2    50   Input ~ 0
+Text GLabel 6400 9300 2    50   Input ~ 0
 SCK_MASTER
 $Comp
 L Graphic:SYM_Arrow_Small #SYM3
@@ -180,50 +154,35 @@ Text GLabel 7600 5500 0    50   Output ~ 0
 IR6
 Text GLabel 7600 5600 0    50   Output ~ 0
 IR7
-Text GLabel 8300 5000 2    50   Output ~ 0
+Text GLabel 7600 5700 0    50   Output ~ 0
 IR8
-Text GLabel 8300 5100 2    50   Output ~ 0
+Text GLabel 8300 5000 2    50   Output ~ 0
 IR9
-Text GLabel 8300 5200 2    50   Output ~ 0
+Text GLabel 8300 5100 2    50   Output ~ 0
 IR10
-Text GLabel 8300 5300 2    50   Output ~ 0
+Text GLabel 8300 5200 2    50   Output ~ 0
 IR11
-Text GLabel 8300 5400 2    50   Output ~ 0
+Text GLabel 8300 5300 2    50   Output ~ 0
 IR12
-Text GLabel 8300 5500 2    50   Output ~ 0
+Text GLabel 8300 5400 2    50   Output ~ 0
 IR13
-Text GLabel 8300 5600 2    50   Output ~ 0
+Text GLabel 8300 5500 2    50   Output ~ 0
 IR14
-$Comp
-L power:GND #PWR015
-U 1 1 61E30504
-P 7300 5750
-F 0 "#PWR015" H 7300 5500 50  0001 C CNN
-F 1 "GND" H 7305 5577 50  0000 C CNN
-F 2 "" H 7300 5750 50  0001 C CNN
-F 3 "" H 7300 5750 50  0001 C CNN
-	1    7300 5750
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR022
 U 1 1 61E30C90
-P 8650 5650
-F 0 "#PWR022" H 8650 5500 50  0001 C CNN
-F 1 "+3.3V" H 8665 5823 50  0000 C CNN
-F 2 "" H 8650 5650 50  0001 C CNN
-F 3 "" H 8650 5650 50  0001 C CNN
-	1    8650 5650
+P 8650 5550
+F 0 "#PWR022" H 8650 5400 50  0001 C CNN
+F 1 "+3.3V" H 8665 5723 50  0000 C CNN
+F 2 "" H 8650 5550 50  0001 C CNN
+F 3 "" H 8650 5550 50  0001 C CNN
+	1    8650 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 5650 8650 5700
+	8650 5550 8650 5600
 Wire Wire Line
-	8650 5700 8200 5700
-Wire Wire Line
-	7300 5750 7300 5700
-Wire Wire Line
-	7300 5700 7700 5700
+	8650 5600 8200 5600
 Wire Wire Line
 	7600 5000 7700 5000
 Wire Wire Line
@@ -237,8 +196,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 5500 7700 5500
 Wire Wire Line
-	7600 5600 7700 5600
-Wire Wire Line
 	8200 5000 8300 5000
 Wire Wire Line
 	8200 5100 8300 5100
@@ -250,8 +207,6 @@ Wire Wire Line
 	8200 5400 8300 5400
 Wire Wire Line
 	8200 5500 8300 5500
-Wire Wire Line
-	8200 5600 8300 5600
 $Comp
 L LED:WS2812B D6
 U 1 1 61EB65BC
@@ -401,37 +356,35 @@ Text GLabel 12100 8150 0    50   Input ~ 0
 LED_DIN
 Text GLabel 4550 8200 0    50   Output ~ 0
 M1_PWM
-Text GLabel 6450 8700 2    50   Output ~ 0
+Text GLabel 6400 8000 2    50   Output ~ 0
 M1_DIR
-Text GLabel 6450 9000 2    50   Output ~ 0
+Text GLabel 4600 10300 0    50   Output ~ 0
 M2_PWM
-Text GLabel 6450 8800 2    50   Output ~ 0
+Text GLabel 6400 10300 2    50   Output ~ 0
 M2_DIR
-Text GLabel 6450 9100 2    50   Output ~ 0
+Text GLabel 4600 10100 0    50   Output ~ 0
 M3_PWM
-Text GLabel 4550 8500 0    50   Output ~ 0
+Text GLabel 4600 10200 0    50   Output ~ 0
 M3_DIR
-Text GLabel 6450 8300 2    50   Output ~ 0
+Text GLabel 6400 9200 2    50   Output ~ 0
 P0
-Text GLabel 6450 8400 2    50   Output ~ 0
+Text GLabel 6400 8500 2    50   Output ~ 0
 P1
-Text GLabel 6450 8500 2    50   Output ~ 0
+Text GLabel 6400 8600 2    50   Output ~ 0
 P2
-Text GLabel 6450 8600 2    50   Output ~ 0
+Text GLabel 4550 8800 0    50   Output ~ 0
 P3
-Text GLabel 4600 8800 0    50   Input ~ 0
+Text GLabel 6400 8400 2    50   Output ~ 0
 P4
-Text GLabel 6500 7900 2    50   Output ~ 0
-~WR
-Text GLabel 6800 8000 2    50   Output ~ 0
+Text GLabel 6600 8700 2    50   Output ~ 0
 ~CS
-Text GLabel 4400 8700 0    50   Output ~ 0
+Text GLabel 4550 8500 0    50   Output ~ 0
 ~EN
-Text GLabel 6450 9500 2    50   Input ~ 0
+Text GLabel 4600 9900 0    50   Input ~ 0
 D
-Text GLabel 6450 9600 2    50   Output ~ 0
+Text GLabel 6400 8300 2    50   Output ~ 0
 HOLD_SW
-Text GLabel 4550 8400 0    50   Output ~ 0
+Text GLabel 6400 7900 2    50   Output ~ 0
 LED_DIN
 Text GLabel 8400 10750 0    50   Input ~ 0
 OLED_SDA
@@ -578,120 +531,46 @@ Wire Wire Line
 	9400 10250 9500 10250
 Wire Wire Line
 	9400 10350 9500 10350
-Text GLabel 6450 8200 2    50   Input ~ 0
+Text GLabel 4600 9800 0    50   Input ~ 0
 ECHO_R
-Text GLabel 6450 8100 2    50   Input ~ 0
+Text GLabel 4600 9700 0    50   Input ~ 0
 TRIG_R
-Text GLabel 4550 8300 0    50   Input ~ 0
+Text GLabel 4550 8400 0    50   Input ~ 0
 ECHO_L
-Text GLabel 6450 9200 2    50   Output ~ 0
-LIGHT_EN
-Wire Wire Line
-	6450 9300 6300 9300
 Wire Wire Line
 	1700 9300 1800 9300
-Wire Wire Line
-	6450 9900 6300 9900
-Wire Wire Line
-	6450 10000 6300 10000
-Wire Wire Line
-	6450 9800 6300 9800
-Wire Wire Line
-	6450 9700 6300 9700
-Wire Wire Line
-	6450 9500 6300 9500
-Wire Wire Line
-	4550 8200 4700 8200
-Wire Wire Line
-	6450 9000 6300 9000
-Wire Wire Line
-	6450 9100 6300 9100
-Wire Wire Line
-	6450 8700 6300 8700
-Wire Wire Line
-	6450 8800 6300 8800
-Wire Wire Line
-	4550 8500 4700 8500
-Text GLabel 6450 7400 2    50   Input ~ 0
+Text GLabel 6400 8200 2    50   Input ~ 0
 TRIG_L
 Wire Wire Line
 	6450 7400 6300 7400
-Wire Wire Line
-	4550 8300 4700 8300
-Wire Wire Line
-	4550 8400 4700 8400
-Wire Wire Line
-	6450 8100 6300 8100
-Wire Wire Line
-	6450 8200 6300 8200
-Text GLabel 1650 9700 0    50   Input ~ 0
-IR14
-Text GLabel 1650 9600 0    50   Input ~ 0
-IR13
-Text GLabel 1650 9500 0    50   Input ~ 0
-IR12
-Text GLabel 3550 9500 2    50   Input ~ 0
-IR11
-Text GLabel 3550 9600 2    50   Input ~ 0
-IR10
-Text GLabel 3550 9800 2    50   Input ~ 0
-IR9
 Text GLabel 3550 9900 2    50   Input ~ 0
-IR8
+IR14
 Text GLabel 3550 10000 2    50   Input ~ 0
-IR7
+IR13
+Text GLabel 3550 10100 2    50   Input ~ 0
+IR12
 Text GLabel 3550 10200 2    50   Input ~ 0
+IR11
+Text GLabel 1700 10000 0    50   Input ~ 0
+IR10
+Text GLabel 1700 9900 0    50   Input ~ 0
+IR9
+Text GLabel 1700 9800 0    50   Input ~ 0
+IR8
+Text GLabel 1700 9700 0    50   Input ~ 0
+IR7
+Text GLabel 1700 9600 0    50   Input ~ 0
 IR6
-Text GLabel 3550 10300 2    50   Input ~ 0
+Text GLabel 1700 9500 0    50   Input ~ 0
 IR5
-Text GLabel 1650 10100 0    50   Input ~ 0
+Text GLabel 3550 9600 2    50   Input ~ 0
 IR3
-Text GLabel 1650 10000 0    50   Input ~ 0
+Text GLabel 3550 9700 2    50   Input ~ 0
 IR2
-Text GLabel 1650 9900 0    50   Input ~ 0
+Text GLabel 3550 9800 2    50   Input ~ 0
 IR1
-Wire Wire Line
-	1650 9500 1800 9500
-Wire Wire Line
-	1650 9600 1800 9600
-Wire Wire Line
-	1650 9700 1800 9700
-Wire Wire Line
-	1650 10000 1800 10000
-Wire Wire Line
-	1650 10100 1800 10100
-Wire Wire Line
-	1650 10300 1800 10300
-Wire Wire Line
-	3550 10300 3400 10300
-Wire Wire Line
-	3550 10200 3400 10200
-Wire Wire Line
-	3550 10000 3400 10000
-Wire Wire Line
-	3550 9900 3400 9900
-Wire Wire Line
-	6450 8300 6300 8300
-Wire Wire Line
-	6450 8400 6300 8400
-Wire Wire Line
-	6450 8500 6300 8500
-Wire Wire Line
-	6450 8600 6300 8600
-Wire Wire Line
-	4600 8800 4700 8800
-Wire Wire Line
-	6450 9200 6300 9200
-Text GLabel 9950 5250 2    50   Input ~ 0
+Text GLabel 9800 5350 2    50   Input ~ 0
 ~EN
-Wire Wire Line
-	6500 7900 6300 7900
-Wire Wire Line
-	6800 8000 6300 8000
-Wire Wire Line
-	4400 8700 4700 8700
-Wire Wire Line
-	6450 9600 6300 9600
 $Comp
 L LED:WS2812B D5
 U 1 1 624B94D2
@@ -1913,10 +1792,8 @@ Wire Wire Line
 Connection ~ 13750 5800
 Wire Wire Line
 	13750 5800 13800 5800
-Text GLabel 6450 10100 2    50   Input ~ 0
+Text GLabel 6400 10200 2    50   Input ~ 0
 PD_OUT
-Wire Wire Line
-	6450 10100 6300 10100
 Text Notes 12850 1450 0    79   ~ 16
 3.3V Buck 
 Text Notes 7100 1550 0    79   ~ 16
@@ -2404,17 +2281,7 @@ NoConn ~ 8300 8550
 NoConn ~ 8300 8450
 NoConn ~ 8300 8350
 NoConn ~ 8300 8250
-NoConn ~ 4700 9500
 NoConn ~ 4700 9600
-NoConn ~ 4700 9700
-NoConn ~ 4700 9800
-NoConn ~ 4700 9900
-NoConn ~ 4700 10000
-NoConn ~ 4700 10100
-NoConn ~ 4700 10200
-NoConn ~ 4700 10300
-NoConn ~ 6300 10300
-NoConn ~ 6300 10200
 NoConn ~ 4700 10600
 NoConn ~ 3400 10600
 NoConn ~ 1800 7900
@@ -2447,8 +2314,6 @@ NoConn ~ 4700 7300
 NoConn ~ 3400 7000
 NoConn ~ 3400 6900
 NoConn ~ 3400 6800
-NoConn ~ 4700 6800
-NoConn ~ 4700 6900
 NoConn ~ 4700 7000
 NoConn ~ 1800 7400
 NoConn ~ 4700 7400
@@ -2551,8 +2416,6 @@ Wire Wire Line
 	8500 10150 8450 10150
 Wire Wire Line
 	8450 10150 8450 10000
-Wire Wire Line
-	3550 9500 3400 9500
 $Comp
 L TEENSY_4_1:TEENSY_4_1 U1
 U 1 1 61B35EEE
@@ -2568,18 +2431,19 @@ F 7 "SparkFun Electronics" H 2600 8700 50  0001 L BNN "MANUFACTURER"
 	1    2600 8700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1650 9900 1800 9900
-Text GLabel 1650 10300 0    50   Input ~ 0
+Text GLabel 3550 9500 2    50   Input ~ 0
 IR4
+NoConn ~ 4700 6900
+NoConn ~ 4700 6800
+NoConn ~ 4700 9500
 Wire Wire Line
-	3550 9600 3400 9600
+	4550 8500 4700 8500
 Wire Wire Line
-	3550 9800 3400 9800
-NoConn ~ 1800 9800
-NoConn ~ 1800 10200
-NoConn ~ 3400 10100
-NoConn ~ 3400 9700
+	6450 8800 6300 8800
+Wire Wire Line
+	6600 8700 6300 8700
+Text GLabel 6450 8800 2    50   Output ~ 0
+~WR
 $Comp
 L Connector_Generic:Conn_02x07_Counter_Clockwise J8
 U 1 1 62B05C9E
@@ -2591,5 +2455,147 @@ F 3 "~" H 9500 5350 50  0001 C CNN
 	1    9500 5350
 	-1   0    0    -1  
 $EndComp
-Connection ~ 9100 5150
+Wire Wire Line
+	9700 5250 9950 5250
+$Comp
+L power:GND #PWR0102
+U 1 1 6226FC09
+P 10050 5500
+F 0 "#PWR0102" H 10050 5250 50  0001 C CNN
+F 1 "GND" H 10055 5327 50  0000 C CNN
+F 2 "" H 10050 5500 50  0001 C CNN
+F 3 "" H 10050 5500 50  0001 C CNN
+	1    10050 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5450 10050 5500
+Wire Wire Line
+	9700 5450 10050 5450
+Wire Wire Line
+	9050 5700 9050 5650
+Wire Wire Line
+	9050 5650 9200 5650
+Wire Wire Line
+	6400 9300 6300 9300
+Wire Wire Line
+	6400 8400 6300 8400
+Wire Wire Line
+	6400 9200 6300 9200
+Wire Wire Line
+	6300 8500 6400 8500
+Wire Wire Line
+	6400 8600 6300 8600
+Wire Wire Line
+	6400 7900 6300 7900
+Wire Wire Line
+	6400 8000 6300 8000
+Wire Wire Line
+	4600 10100 4700 10100
+Wire Wire Line
+	4600 10200 4700 10200
+Wire Wire Line
+	4600 10300 4700 10300
+Wire Wire Line
+	6400 10300 6300 10300
+Wire Wire Line
+	6450 9900 6300 9900
+Wire Wire Line
+	6450 10000 6300 10000
+Wire Wire Line
+	6450 9800 6300 9800
+Wire Wire Line
+	6450 9700 6300 9700
+Wire Wire Line
+	4550 8800 4700 8800
+Wire Wire Line
+	3550 9800 3400 9800
+Wire Wire Line
+	3550 9700 3400 9700
+Wire Wire Line
+	3550 9600 3400 9600
+Wire Wire Line
+	3550 9500 3400 9500
+Wire Wire Line
+	1700 9500 1800 9500
+Wire Wire Line
+	1700 9600 1800 9600
+Wire Wire Line
+	1700 9700 1800 9700
+Wire Wire Line
+	1700 9800 1800 9800
+Wire Wire Line
+	1700 9900 1800 9900
+$Comp
+L TEENSY_4_1:TEENSY_4_1 U2
+U 1 1 61B38CB8
+P 5500 8700
+F 0 "U2" H 5500 10867 50  0000 C CNN
+F 1 "TEENSY_4_1_SLAVE" H 5500 10776 50  0000 C CNN
+F 2 "Main_Board:TEENSY_4_1_FP" H 5500 8700 50  0001 L BNN
+F 3 "" H 5500 8700 50  0001 L BNN
+F 4 "Manufacturer recommendations" H 5500 8700 50  0001 L BNN "STANDARD"
+F 5 "4.07mm" H 5500 8700 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "4.1" H 5500 8700 50  0001 L BNN "PARTREV"
+F 7 "SparkFun Electronics" H 5500 8700 50  0001 L BNN "MANUFACTURER"
+	1    5500 8700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 9700 4700 9700
+Wire Wire Line
+	4600 9800 4700 9800
+Wire Wire Line
+	4550 8400 4700 8400
+Wire Wire Line
+	6400 8200 6300 8200
+Wire Wire Line
+	4550 8200 4700 8200
+Wire Wire Line
+	6400 10200 6300 10200
+Wire Wire Line
+	6400 8300 6300 8300
+NoConn ~ 6300 8100
+NoConn ~ 6300 9000
+NoConn ~ 6300 9100
+NoConn ~ 6300 9500
+NoConn ~ 6300 9600
+NoConn ~ 6300 10100
+NoConn ~ 6450 7400
+Wire Wire Line
+	8650 5700 8200 5700
+Wire Wire Line
+	8650 5750 8650 5700
+$Comp
+L power:GND #PWR015
+U 1 1 61E30504
+P 8650 5750
+F 0 "#PWR015" H 8650 5500 50  0001 C CNN
+F 1 "GND" H 8655 5577 50  0000 C CNN
+F 2 "" H 8650 5750 50  0001 C CNN
+F 3 "" H 8650 5750 50  0001 C CNN
+	1    8650 5750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5600 7700 5600
+Wire Wire Line
+	7600 5700 7700 5700
+Wire Wire Line
+	3550 9900 3400 9900
+Wire Wire Line
+	3550 10000 3400 10000
+Wire Wire Line
+	3550 10100 3400 10100
+Wire Wire Line
+	3550 10200 3400 10200
+NoConn ~ 1800 10100
+NoConn ~ 1800 10200
+NoConn ~ 1800 10300
+Wire Wire Line
+	1700 10000 1800 10000
+NoConn ~ 3400 10300
+Wire Wire Line
+	4600 9900 4700 9900
+NoConn ~ 4700 10000
 $EndSCHEMATC

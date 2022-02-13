@@ -2907,7 +2907,7 @@ U 1 1 61F76C65
 P 9200 4850
 F 0 "U1" H 8400 5600 50  0000 L CNN
 F 1 "ADG732" H 9050 4850 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 9700 3850 50  0001 C CNN
+F 2 "Package_CSP:LFCSP-48-1EP_7x7mm_P0.5mm_EP4.1x4.1mm" H 9700 3850 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/adg726_732.pdf" H 8700 5250 50  0001 C CNN
 	1    9200 4850
 	1    0    0    -1  

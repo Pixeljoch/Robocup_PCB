@@ -389,7 +389,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "IR_Board.step",
-      "vrml": ""
+      "vrml": "IR_Board.wrl"
     },
     "page_layout_descr_file": ""
   },
